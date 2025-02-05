@@ -61,4 +61,18 @@
   .container {
     background-color: red;
   }
+}
+
+.header {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header .hcont {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.header .hcont__menu {
+  display: flex;
 }/*# sourceMappingURL=main-style.min.css.map */
