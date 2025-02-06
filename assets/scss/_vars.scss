@@ -7,7 +7,7 @@ $text: #575757;
 // создаем переменные для css
 :root{
     --color-text: #{$text};
-    --color-accent: #($accent);
+    --color-accent: #{$accent};
     --color-white: #{$white};
     --color-black: #{$black};
     --content-width: 1200px;

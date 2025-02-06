@@ -1,6 +1,6 @@
 :root {
   --color-text: #575757;
-  --color-accent: #($accent);
+  --color-accent: #DCE9B1;
   --color-white: #fff;
   --color-black: #000;
   --content-width: 1200px;
@@ -63,6 +63,34 @@
   }
 }
 
+h1 {
+  color: var(--color-black);
+}
+
+h2 {
+  color: var(--color-black);
+}
+
+h3 {
+  color: var(--color-black);
+}
+
+h4 {
+  color: var(--color-black);
+}
+
+h5 {
+  color: var(--color-black);
+}
+
+h6 {
+  color: var(--color-black);
+}
+
+p {
+  color: var(--color-black);
+}
+
 .header {
   max-width: 1440px;
   margin-left: auto;
@@ -107,4 +135,105 @@
   border: solid black 1px;
   border-radius: 100px;
   padding: 15px;
+}
+
+.general {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.general__container .gabout {
+  display: flex;
+}
+.general__container .gabout__info .gtext {
+  margin-top: 138px;
+}
+.general__container .gabout__info .gtext__title {
+  font-size: 64px;
+  font-weight: 500;
+  max-width: 870px;
+  margin: 0;
+}
+.general__container .gabout__info .gtext__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 383px;
+}
+.general__container .gabout__info .gtext__links {
+  display: flex;
+  margin-top: 40px;
+}
+.general__container .gabout__info .gtext__links-button {
+  background-color: var(--color-black);
+  color: var(--color-accent);
+  border-radius: 48px;
+  padding: 12px 32px;
+}
+.general__container .gabout__info .gtext__links-arrow {
+  background-color: var(--color-black);
+  color: var(--color-accent);
+  border-radius: 40px;
+  padding: 17px;
+}
+.general__container .gabout__info .gtext__links-arrow--image {
+  align-items: center;
+  text-align: center;
+}
+.general__container .gabout__info .gphotos {
+  display: flex;
+  gap: 25px;
+  margin-top: 127px;
+  position: relative;
+  right: 200px;
+}
+.general__container .gabout__info .gphotos__image {
+  width: 270px;
+  height: 176px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 31px;
+}
+.general__container .gabout__image-picture {
+  width: 524px;
+  height: 781px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 31px;
+  margin-top: 18px;
+}
+.general__container .gbottom {
+  background-color: var(--color-accent);
+  display: flex;
+  justify-content: space-between;
+}
+.general__container .gbottom__people {
+  align-items: center;
+  display: flex;
+  gap: 15px;
+}
+.general__container .gbottom__people-text {
+  max-width: 169px;
+  font-size: 16px;
+}
+.general__container .gbottom__people .gphoto {
+  display: flex;
+}
+.general__container .gbottom__people .gphoto__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+  width: 56px;
+  height: 56px;
+}
+.general__container .gbottom__buttons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.general__container .gbottom__buttons-button {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 12px 32px 12px 32px;
+  border: solid 1px rgba(0, 0, 0, 0.08);
+  border-radius: 30px;
+  color: var(--color-black);
 }/*# sourceMappingURL=main-style.min.css.map */

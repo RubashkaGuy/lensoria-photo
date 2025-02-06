@@ -1,0 +1,112 @@
+.general {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    &__container {
+        .gabout {
+            display: flex;
+            &__info {
+                .gtext {
+                    margin-top: 138px;
+                    &__title {
+                        font-size: 64px;
+                        font-weight: 500;
+                        max-width: 870px;
+                        margin: 0;
+                    }
+                    &__subtitle {
+                        font-weight: 400;
+                        font-size: 14px;
+                        max-width: 383px;
+                    }
+                    &__links {
+                        display: flex;
+                        margin-top: 40px;
+                        &-button {
+                            background-color: var(--color-black);
+                            color: var(--color-accent);
+                            border-radius: 48px;
+                            padding: 12px 32px;
+
+                        }
+                        &-arrow {
+                            background-color: var(--color-black);
+                            color: var(--color-accent);
+                            border-radius: 40px;
+                            padding: 17px;
+                            &--image {
+                                align-items: center;
+                                text-align: center;
+                            }
+                        }
+                        
+                    }
+                    
+                }
+                .gphotos {
+                    display: flex;
+                    gap: 25px;
+                    margin-top: 127px;
+                    position: relative;
+                    right: 200px;
+                    &__image {
+                        width: 270px;
+                        height: 176px;
+                        object-fit: cover;
+                        border-radius: 31px;
+                    }
+                }
+            }
+            &__image {
+                &-picture {
+                    width: 524px;
+                    height: 781px;
+                    object-fit: cover;
+                    border-radius: 31px;
+                    margin-top: 18px;
+                }
+            }
+        }
+        .gbottom {
+            background-color: var(--color-accent);
+            
+            display: flex;
+            justify-content: space-between;
+            &__people {
+                align-items: center;
+                display: flex;
+                gap: 15px;
+                &-text {
+                    
+                    max-width: 169px;
+                    font-size: 16px;
+                    
+                }
+                .gphoto {
+                    
+                    display: flex;
+                    &__image {
+                        
+                        object-fit: cover;
+                        border-radius: 30px;
+                        width: 56px;
+                        height: 56px;
+                    }
+                }
+                
+            }
+            &__buttons {
+                display: flex;
+                gap: 24px;
+                align-items: center;
+                &-button {
+                    background-color:rgba($color: #ffffff, $alpha: 8%);
+                    padding: 12px 32px 12px 32px;
+                    border: solid 1px rgba($color: #000000, $alpha: 8%);
+                    border-radius: 30px;
+                    color: var(--color-black);
+                }
+            }
+        }
+    }
+}
