@@ -5,14 +5,51 @@
     margin-left: auto;
     margin-right: auto;
     .hcont {
+        margin-top: 54px;
+        
+        &__logo {
+            &-title {
+                margin: 0;
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
         color: black;
         display: flex;
         justify-content: space-between;
         &__menu {
             display: flex;
-            font-size: ;
+            font-size: 16px;
+            gap: 24px;
+            margin: 0;
+            .hitem {
+                &__link {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
         }
         
-        
+        &__link {
+            display: flex;
+            justify-content: center;
+            
+            &-button {
+                border: solid black 1px;
+                border-radius: 40px;
+                padding: 15px 32px 15px 32px;
+                &:hover {
+                    background-color: var(--color-black);
+                    transition: ease-in-out 0.09s;
+                    color: var(--color-white);
+                }
+            }
+            &-arrow {
+                border: solid black 1px;
+                border-radius: 100px;
+                padding: 15px;
+            }
+            
+        }
     }
 }
